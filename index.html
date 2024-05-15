@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Guess the Number</h1>
+    <p>Enter a number between 1 and 100:</p>
+    <input type="text" id="guessInput">
+    <button onclick="checkGuess()">Submit Guess</button>
+    <div id="result"></div>
+    <div id="previousGuesses"></div>
+    <div id="guessRemaining">Guesses Remaining: <span id="remaining">10</span></div>
+    <div id="correctNumber" class="hidden">The correct number was <span id="actualNumber"></span>.</div>
+    <a href="#" id="newGameLink" class="hidden" onclick="startNewGame()">Start New Game</a>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

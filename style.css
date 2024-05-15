@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #ddd;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 120px auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-align: center;
+  color: #ddd;
+}
+
+p {
+  margin-top: 0;
+  color: #ddd;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #ddd;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#previousGuesses {
+  margin-top: 15px;
+}
+
+#guessRemaining {
+  margin-top: 15px;
+  color: #ddd;
+}
+
+.hidden {
+    display: none;
+  }
+
+#correctNumber {
+  margin-top: 15px;
+}
+
+
+#newGameLink {
+  position: relative;
+  margin-top: 15px;
+  left:12%;
+  transform: translateX(-50%);
+  color: #0ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* #newGameLink:hover {
+    color: #00f;
+  } */
